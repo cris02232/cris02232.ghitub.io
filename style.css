@@ -1,0 +1,109 @@
+# cris02232.ghitub. 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    background-color: white;
+    color: black; 
+}
+
+p {
+    font-size: 22px;
+    padding: 5%;
+}
+
+h2 {
+    padding: 50px;
+}
+
+h3 {
+    padding: 50px;
+}
+
+.Servicios {
+    background: rgb(226, 222, 222);
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.Servicios .titulo {
+    width: 70%;
+    font-size: 44px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.Servicios .Service {
+    position: relative;
+    width: 100%;
+}
+
+.Servicios .Service .overlay {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: navajowhite;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.Servicios .Service:hover .overlay {
+    width: 100%;
+    opacity: .8;
+}
+
+.Servicios .Service .overlay-texto {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    white-space: nowrap;
+    color: black;
+    font-size: 18px;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-top: 1 px solid black;
+    border-bottom: 1px solid black; 
+} 
+
+table {
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 20px;
+}
+
+thead {
+    background-color: peru;
+    border-bottom: solid black;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+tr:hover {
+    background-color: sandybrown;
+    color: white;
+}
+
+.Desayunos {
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: lightyellow;
+}
